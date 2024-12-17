@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uz">
+     <head>
+     <title>Bog'lanish</title>
+     <meta charset="utf-8">
+     <meta name = "format-detection" content = "telephone=no" />
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/form.css">
+     <link rel="stylesheet" href="css/style.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/script.js"></script> 
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.equalheights.js"></script>
+     <script src="js/jquery.mobilemenu.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/jquery.ui.totop.js"></script>
+     <script src="js/TMForm.js"></script>
+     <script>
+       $(document).ready(function(){
+        $().UItoTop({ easingType: 'easeOutQuart' });
+     }); 
+     </script>
+        
+    <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="Siz eski brauzerdan foydalanyapsiz. Tezroq, xavfsizroq tajriba uchun brauzeringizni yangilang." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+    <![endif]-->
+     </head>
+     <body>
+<!--==============================header=================================-->
+<div class="main">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+          <h1>
+            <a href="index.html">
+              <img src="images/logo.png" alt="Sizning Baxtli Oila">
+            </a>
+          </h1>
+          <div class="booking">
+            <span>Onlayn buyurtma bering</span>
+            mahalliy olib ketishlar uchun yoki faol buyurtmalar
+          </div>
+          <div class="clear"></div>       
+        </div>
+      </div>
+    </div>  
+    <div class="menu_block ">
+      <div class="container">
+        <div class="row">
+          <div class="grid_12">
+            <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+              <ul class="sf-menu">
+               <li><a href="index.html">Biz haqimizda</a></li>
+               <li><a href="services.html">Xizmatlar</a></li>
+               <li><a href="other_services.html">Qo'shimcha xizmatlar</a>
+                <ul>
+                  <li><a href="#">Qo'shimcha Xizmat</a></li>
+                  <li><a href="#">Trening</a>
+                    <ul>
+                      <li><a href="#">Shaxsiy Trening</a></li>
+                      <li><a href="#">Onlayn Trening</a></li>
+                      <li><a href="#">Maxsus Kurslar</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Qo'shimcha Kurslar</a></li>
+               </ul>
+               </li>
+               <li><a href="blog.html">Blog</a></li>
+               <li class="current"><a href="contact.html">Bog'lanish</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>       
+          </div>   
+        </div>
+      </div>
+    </div>         
+  </header>
+<!--==============================Content=================================-->
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <h3>Bizni qanday topish mumkin</h3>
+        <div class="map">
+          <figure class="">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1510.3542930649871!2d72.3702183269838!3d40.79042033099887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bceb5067783d39%3A0xbc7af5622b61656c!2sADU%201-sonli%20TTJ!5e0!3m2!1sen!2s!4v1734468432576!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem.</p>
+          <address>
+            <dl>
+                <dt>
+                    Universitet ko'chasi 42-uy.
+                </dt>
+                <dd><span>Telefon:</span>+998 90 855-14-40</dd>
+                <dd><span>Mobil:</span>+998 33 855-14-40</dd>
+                <dd><span>FAX:</span>+998 90 688-85-40</dd>
+                <dd>Email: <a href="#" class="col1">sobirjonovkhusanboy14062003@gmail.com</a></dd>
+            </dl>
+         </address>
+         <div class="clear"></div>
+      </div>
+      <h3>Fikr-mulohazalar</h3>
+      <form id="form">                             
+      <div class="success_wrapper">
+      <div class="success-message">Bog'lanish formasi yuborildi</div>
+      </div>
+      <label class="name">
+      <input type="text" placeholder="Ism" data-constraints="@Required @JustLetters" />
+      <span class="empty-message">*Ushbu maydon talab etiladi.</span>
+      <span class="error-message">*Bu haqiqiy ism emas.</span>
+      </label>    
+      <label class="email">
+      <input type="text" placeholder="E-mail" data-constraints="@Required @Email" />
+      <span class="empty-message">*Ushbu maydon talab etiladi.</span>
+      <span class="error-message">*Bu haqiqiy email emas.</span>
+      </label>
+      <label class="message">
+      <textarea placeholder="Xabar" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+      <span class="empty-message">*Ushbu maydon talab etiladi.</span>
+      <span class="error-message">*Xabar juda qisqa.</span>
+      </label>
+      <div>
+      <div class="clear"></div>
+      <div class="btns">
+      <a href="#" data-type="submit" class="btn">Yuborish</a></div>
+      </div>
+      </form> 
+     </div>   
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+</div>
+  <footer>   
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">  
+          <div class="socials">
+            <a href="#"></a>
+            <a href="#" class="soc1"></a>
+            <a href="#" class="soc2"></a>
+            <a href="#" class="soc3"></a>
+          </div>       
+          <div class="copy"><strong class="col1">PETAX </strong>  &copy; <span id="copyright-year"></span> | <a href="privacy_policy.html">Maxfiylik siyosati</a> 
+          </div>
+        </div>
+      </div>
+    </div>  
+  </footer>
+</body>
+</html>

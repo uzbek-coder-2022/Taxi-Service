@@ -1,0 +1,77 @@
+#owl {
+	overflow: hidden;
+	z-index: 1;
+	color: #9b9b9b;
+	position: relative;
+	margin: 0 0 53px;
+	padding: 0px 0px 143px;
+}
+
+#owl .owl-item {
+	float: left;
+	width: 100%;
+}
+
+#owl .item {
+	padding-left: 4px;
+	font: 300 20px/23px 'Open Sans', sans-serif;
+	overflow: hidden;
+	position: relative;
+	text-transform: uppercase;
+}
+
+#owl .item a.btn {
+}
+
+.owl-wrapper-outer {
+	overflow: hidden;
+	padding-top: 0px;
+}
+
+.owl-wrapper {
+	overflow: hidden;
+}
+
+.owl-pagination {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+
+.owl-page {
+	display: block;
+	cursor: pointer;
+	background: url(../images/pagination.png) right 0 no-repeat;
+	width: 19px;
+	height: 19px;
+	float: left;
+}
+
+.owl-page+.owl-page {
+	margin-left: 11px;
+}
+
+.owl-page+.owl-page+.owl-page {
+	margin-left: 12px;
+}
+
+.owl-page.active, .owl-page:hover {
+	background-position: 0 0;
+}
+
+.owl-page span {
+	display: none;
+}
+
+/* Owl content */
+
+
+
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-perspective: 1000;
+}

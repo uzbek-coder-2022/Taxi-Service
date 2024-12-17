@@ -1,0 +1,21 @@
+.socials a {
+	behavior: url(js/PIE.htc);
+	position: relative;
+	margin-right: 15px;
+}
+
+#form .invalid .error-message, 
+#form .empty .empty-message {
+	display: block;
+
+}
+
+#form .error-message, 
+#form .empty-message {
+	display: none;
+}
+
+h2 {
+	letter-spacing: -1px;
+}
+
